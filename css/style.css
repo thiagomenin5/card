@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+}
+.contenido{
+    display: grid;
+    background-color: aliceblue;
+    border: 5px solid;
+    margin: 200px auto 50px;
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 3px 3px;
+}
+.fondo{
+    background-color: lightcoral;
+    height: 110px;
+}
+.imagen{
+    position: absolute;
+    top: 130px;
+    left: 41%;
+    width: 120px; 
+    height: 90px;
+    border-radius: 50%;
+    justify-self: center;
+}
+.image{
+    position: absolute;
+    top: 130px;
+    left: 41%;
+    width: 120px; 
+    height: 90px;
+    border: 2px solid white;
+    border-radius: 50%;
+    justify-self: center;
+}
+.cont1{
+    
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-self: center;
+    grid-template-columns: auto;
+    align-self: start;
+}
+.nombre{
+  
+}
+.ciudad{
+    padding-left: 35px;
+    align-self: center;
+}
+.datos{
+    display: flex;
+    border-top: 3px solid;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.numero{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+.tipo{
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
